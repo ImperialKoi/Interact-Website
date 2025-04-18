@@ -10,7 +10,9 @@ import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
 
 function App() {
-  // Smooth scroll effect
+  useEffect(() => {
+    document.title = "Interact Food Donations";
+  }, []);
 
   return (
     <div className="font-sans">
