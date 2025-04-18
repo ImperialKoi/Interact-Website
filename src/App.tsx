@@ -5,7 +5,6 @@ import About from './components/About';
 import Programs from './components/Programs';
 import GetInvolved from './components/GetInvolved';
 import ImpactStats from './components/ImpactStats';
-import Testimonials from './components/Testimonials';
 import NewsletterSection from './components/NewsletterSection';
 import ContactForm from './components/ContactForm';
 import Footer from './components/Footer';
@@ -21,9 +20,8 @@ function App() {
       <Programs />
       <ImpactStats />
       <GetInvolved />
-      <Testimonials />
-      <NewsletterSection />
       <ContactForm />
+      <NewsletterSection />
       <Footer />
     </div>
   );
