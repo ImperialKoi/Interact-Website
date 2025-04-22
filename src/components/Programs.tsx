@@ -10,7 +10,7 @@ interface ProgramCardProps {
 
 const ProgramCard: React.FC<ProgramCardProps> = ({ icon, title, description, color }) => {
   return (
-    <div className={`rounded-lg overflow-hidden transform transition-all hover:-translate-y-2 hover:shadow-xl`}>
+    <div className={`rounded-lg overflow-hidden transform transition-all hover:-translate-y-2 hover:shadow-xl border border-gray-300`}>
       <div className={`${color} p-6`}>
         <div className="text-white mb-4">{icon}</div>
         <h3 className="text-xl font-bold text-white mb-2">{title}</h3>

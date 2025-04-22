@@ -68,7 +68,7 @@ const Header: React.FC = () => {
                 className="flex items-center gap-2"
               >
                 <Heart className="w-8 h-8 text-green-600" />
-                <span className="font-bold text-xl">CR</span>
+                <span className="font-bold text-xl">FF</span>
               </motion.div>
             ) : (
               <motion.div 
@@ -79,7 +79,7 @@ const Header: React.FC = () => {
               >
                 <Heart className="w-8 h-8 text-green-600" />
                 <span className={`font-bold text-xl ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
-                  CommunityReach
+                  FeedingFUTURES
                 </span>
               </motion.div>
             )}
@@ -135,7 +135,7 @@ const Header: React.FC = () => {
           <a href="#" className="flex items-center gap-2">
             <Heart className="w-8 h-8 text-green-600" />
             <span className={`font-bold text-xl ${isScrolled ? 'text-gray-800' : 'text-white'}`}>
-              CR
+              FF
             </span>
           </a>
 
